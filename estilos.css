@@ -1,0 +1,53 @@
+body{
+    background-image: radial-gradient(circle at 50% 50%, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.registro{
+    width: 25%;
+    margin: auto;
+    margin-top: 140px;
+    background-image: radial-gradient(circle at 50% 50%, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    padding: 30px;
+    box-shadow: 5px 5px 5px #3b3d3f;
+    border-radius: 5px;
+    color: white;
+}
+.input{
+    width: 95%;
+    height: 32px;
+    margin-bottom: 10px;
+    background-color: #221d1d;
+    color: rgb(255, 255, 255);
+    font-size: 14px
+
+}
+.login{
+    width: 30%;
+    margin: auto;
+    margin-top: 160px;
+    background-image: linear-gradient(180deg, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    padding: 23px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+a{
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.boton{
+    color: #dbdbdb;
+    background-color: #000000;
+    width: 97%;
+    height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boton:hover{
+    color: hsl(240, 1%, 29%);
+    transition: .4s;
+    background-color: #181122;
+}
+
+.login:hover{
+    background-image: radial-gradient(circle at 50% 2.89%, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    transition: .8s;
+}
